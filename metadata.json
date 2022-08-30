@@ -1,16 +1,16 @@
 {
-  "name": "acjohnson-adcli",
+  "name": "tca_puppet_adcli",
   "version": "0.3.2",
   "author": "Aaron Johnson",
   "summary": "Install adcli package and Join Active Directory using adcli",
   "license": "GPL-3.0+",
-  "source": "git://github.com/acjohnson/puppet-adcli.git",
-  "project_page": "https://github.com/acjohnson/puppet-adcli",
-  "issues_url": "https://github.com/acjohnson/puppet-adcli/issues",
+  "source": "git://github.com/Trust-Company-of-America/tca_puppet_adcli.git",
+  "project_page": "https://github.com/Trust-Company-of-America/tca_puppet_adcli",
+  "issues_url": "https://github.com/Trust-Company-of-America/tca_puppet_adcli/issues",
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 2.3.0 < 6.0.0"
+      "version_requirement": ">= 2.3.0"
     }
   ],
   "operatingsystem_support": [
@@ -32,7 +32,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 3.0.0 < 5.0.0"
+      "version_requirement": ">= 3.0.0"
     }
   ],
   "tags": [
